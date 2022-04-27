@@ -13,4 +13,4 @@ RUN cmake --build _build
 ENV LOG_PATH /home/logs/log.txt
 VOLUME /home/logs
 WORKDIR install/bin
-ENTRYPOINT ./print_hello_world
+ENTRYPOINT ./hello_world
