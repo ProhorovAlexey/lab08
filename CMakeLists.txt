@@ -10,5 +10,4 @@ add_executable(hello_world ./demo/hello_world.cpp)
 include_directories(./include)
 add_subdirectory(./source print)
 
-
 target_link_libraries(hello_world print)
