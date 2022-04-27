@@ -2,7 +2,7 @@ FROM ubuntu:22.04
 MAINTAINER ProhorovAlexey
 
 RUN apt update
-RUN apt install apt-utils
+RUN sudo apt install apt-utils
 RUN apt install -yy gcc g++ cmake
 
 COPY . print/
