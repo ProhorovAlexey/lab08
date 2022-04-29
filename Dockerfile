@@ -11,7 +11,5 @@ RUN cmake -B_build -DCMAKE_INSTALL_PREFIX=install
 RUN cmake --build _build
 RUN cmake --build _build --target install
 
-ENV LOG_PATH /home/logs/log.txt
-VOLUME /home/logs
 WORKDIR install/bin
 ENTRYPOINT ./hello_world
